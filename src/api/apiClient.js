@@ -5,7 +5,7 @@ import axios from 'axios';
 // Create a custom Axios instance
 const apiClient = axios.create({
     // IMPORTANT: Set this to your backend server URL
-    baseURL: 'https://skillshareconnect-backend.onrender.com//api', 
+    baseURL: 'https://skillshareconnect-backend.onrender.com/api', 
     headers: {
         'Content-Type': 'application/json',
     },
