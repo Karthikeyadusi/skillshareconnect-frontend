@@ -14,6 +14,11 @@ const Header = () => {
                 <Link to="/">SkillShare Connect</Link>
             </div>
             <nav className="nav-links">
+
+
+                                <Link to="/">Home</Link>
+
+
                 <Link to="/tasks">Browse Tasks</Link>
                 {isAuthenticated && user.role.includes('requester') && (
                     <Link to="/post">Post a Task</Link>
